@@ -13,3 +13,10 @@
  *= require_tree .
  *= require_self
  */
+
+ .text-github-blue,.hover-text-github-blue:hover{color:#4078c0 !important}
+ .text-linkedin-blue,.hover-text-linkedin-blue:hover{color:#0077B5 !important}
+ .text-facebook-blue,.hover-text-facebook-blue:hover{color:#3b5998 !important}
+ .text-twitter-blue,.hover-text-twitter-blue:hover{color:#5ea9dd !important}
+
+ .round-larger{border-radius:12px !important}
