@@ -95,7 +95,7 @@ img.w3-image,.w3-image img{max-width:100%;height:auto}
 {-webkit-transition:all 0.3s ease,color 0.15s ease;transition:all 0.3s ease,color 0.15s ease}
 .w3-sidenav{height:100%;width:200px;background-color:#fff;position:fixed !important;z-index:1;overflow:auto}
 .w3-sidenav a{padding:4px 2px 4px 16px}
-.w3-sidenav a:hover{background-color:#ccc}
+/*.w3-sidenav a:hover{background-color:#ccc}*/
 .w3-sidenav a,.w3-dropnav a{display:block}
 .w3-sidenav .w3-dropdown-hover:hover,.w3-sidenav .w3-dropdown-hover:first-child,.w3-sidenav .w3-dropdown-click:hover{background-color:#ccc;color:#000}
 .w3-sidenav .w3-dropdown-hover,.w3-sidenav .w3-dropdown-click {width:100%}.w3-sidenav .w3-dropdown-hover .w3-dropdown-content,.w3-sidenav .w3-dropdown-click .w3-dropdown-content{min-width:100%}
