@@ -22,11 +22,11 @@
 .round-larger{border-radius:12px !important}
 .round-largest{border-radius:18px !important}
 
-.contact-item .fa {
+.list-item .fa {
   padding-right: 10px;
 }
 
-.contact-item {
+.list-item {
   padding: 5px 0;
   background-color: transparent;
   border: 0;
@@ -35,11 +35,11 @@
   white-space: nowrap;
 }
 
-.contact-item a {
+.list-item a {
   text-decoration: none;
 }
 
-.contact-item a:hover {
+.list-item a:hover {
   color: #009688;
 }
 
