@@ -57,3 +57,8 @@
 	z-index: 9999;
 	background: url('http://i.giphy.com/xTk9ZvMnbIiIew7IpW.gif') 50% 50% no-repeat #e5eff1;
 }
+
+.title {
+  vertical-align: absbottom;
+  display: inline;
+}
