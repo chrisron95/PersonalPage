@@ -58,7 +58,13 @@
 	background: url('http://i.giphy.com/xTk9ZvMnbIiIew7IpW.gif') 50% 50% no-repeat #e5eff1;
 }
 
-.title {
+.who-i-am {
   vertical-align: absbottom;
   display: inline;
+}
+
+.what-i-am {
+  vertical-align: absbottom;
+  display: inline;
+  color: #616161;
 }
