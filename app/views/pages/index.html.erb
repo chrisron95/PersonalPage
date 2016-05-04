@@ -1,6 +1,35 @@
 <%# content_for :title, "My Page" %>
 <!-- <h1>Chris Heder</h1> -->
 
+<nav class="w3-sidenav w3-collapse w3-blue-grey w3-animate-left" style="z-index:3;width:300px;"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding-large" title="close menu">×</a>
+    <img src="http://s3.amazonaws.com/chrisheder-assets/IMG_0135_pp.JPG" style="width:100%;" class="round-larger"><br><br>
+    <h3 class="w3-padding-0">Chris Heder</h3>
+  </div>
+  <!-- <a href="#" class="w3-padding <%= 'w3-text-teal' if current_page?(page: 'index') %>">HOME</a> -->
+  <!-- <a href="#" class="w3-padding">ABOUT</a>
+  <a href="#" class="w3-padding">PORTFOLIO</a>
+  <a href="#" class="w3-padding">CONTACT</a> -->
+  <div class="w3-section w3-padding-top w3-large">
+    <a href="https://www.facebook.com/chris.heder" class="w3-hover-blue-grey hover-text-shadow-white hover-text-facebook-blue w3-show-inline-block"><i class="fa fa-facebook-official fa-2x"></i></a>
+    <a href="https://twitter.com/Chrisron95" class="w3-hover-blue-grey hover-text-shadow-white hover-text-twitter-blue w3-show-inline-block"><i class="fa fa-twitter fa-2x"></i></a>
+    <a href="https://www.linkedin.com/in/chrisheder" class="w3-hover-blue-grey hover-text-shadow-white hover-text-linkedin-blue w3-show-inline-block"><i class="fa fa-linkedin fa-2x"></i></a>
+    <a href="https://github.com/chrisron95" class="w3-hover-blue-grey hover-text-shadow-white hover-text-github-blue w3-show-inline-block"><i class="fa fa-github fa-2x"></i></a>
+  </div>
+
+  <div class="w3-container">
+    <h3>Contact Me</h3>
+    <ul class="w3-ul hoverable-list">
+      <li class="list-item"><a href="tel:2398960986"><i class="fa fa-phone"></i>(239) 896-0986</a></li>
+      <li class="list-item"><a href="mailto:chris@chrisheder.com"><i class="fa fa-envelope"></i>chris@chrisheder.com</a></li>
+    </ul>
+  </div>
+
+</nav>
+
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu"></div>
+
 <div class="w3-main" style="margin-left:300px">
 
   <!-- Header -->
