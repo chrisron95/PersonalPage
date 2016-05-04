@@ -21,7 +21,7 @@
 
   <div class="loader"></div>
 
-  <% if current_page?(page: 'index') %>
+  <% if current_page?(controller: 'pages', action: 'show', page: 'index') %>
 
     <nav class="w3-sidenav w3-collapse w3-blue-grey w3-animate-left" style="z-index:3;width:300px;"><br>
       <div class="w3-container">
@@ -55,7 +55,9 @@
   <% else %>
 
     <ul class="w3-navbar w3-blue">
-      <li><a href="#">Home</a></li>
+      <li><a href="#" class="w3-hover-light-grey dimp_logo">D</a></li>
+      <li><a href="#" class="w3-hover-light-grey <%= 'w3-light-blue' if current_page?(controller: 'family', action: 'show', page: 'index') %>">Home</a></li>
+      <li><a href="#" class="w3-hover-light-grey <%= 'w3-light-blue' if current_page?(controller: 'family', action: 'show', page: 'albums') %>">Albums</a></li>
     </ul>
 
   <% end %>
