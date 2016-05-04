@@ -27,6 +27,8 @@ gem 'rails_12factor'
 
 gem 'aws-sdk', '~> 2'
 
+gem 'paperclip', '~> 4.3', '>= 4.3.6'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
