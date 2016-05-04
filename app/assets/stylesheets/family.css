@@ -5,3 +5,8 @@
 .dimp_logo {
   font-family: cursive;;
 }
+
+.page-heading {
+  font-size: 63px;
+  text-shadow: 0px 0px 10px #444, 0px 0px 0px #fff;
+}
