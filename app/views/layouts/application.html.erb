@@ -58,6 +58,7 @@
       <li><a href="#" class="w3-hover-light-grey dimp_logo">D</a></li>
       <li><a href="#" class="w3-hover-light-grey <%= 'w3-light-blue' if current_page?(controller: 'family', action: 'show', page: 'index') %>">Home</a></li>
       <li><a href="#" class="w3-hover-light-grey <%= 'w3-light-blue' if current_page?(controller: 'family', action: 'show', page: 'albums') %>">Albums</a></li>
+      <li class="w3-right"><%= link_to "Back to Portfolio Page", {controller: 'pages', action: 'show', page: 'index'}, class: "w3-hover-light-grey" %></li>
     </ul>
 
   <% end %>
